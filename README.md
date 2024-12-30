@@ -31,7 +31,7 @@ The portfolio successfully demonstrates a professional presence online, emphasiz
 Let me know if you'd like adjustments to the tone or additional details.
 
 
-#output
+# output
 ![Screenshot 2024-12-30 222753](https://github.com/user-attachments/assets/32e1204d-e6dc-4ff8-9c14-cddb581fedc8)
 
 ![Screenshot 2024-12-30 222804](https://github.com/user-attachments/assets/092e676d-18e5-478e-b16a-ad78eda940b4)
