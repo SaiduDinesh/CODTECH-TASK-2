@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('fonts/SF-Pro-Regular.ttf') format('truetype');
+  }
+  
+  .nav {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2cm;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-left: 1.5cm;
+}
+.intro {
+    height: 20cm;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1{
+    padding-top: 5cm;
+    font-family:'font-family: 'SFPro', sans-serif;';
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.intro h3{
+    padding-top: 0.5cm;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.intro p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1cm;
+}
+
+.card1 {
+    background-image: url('gitam.jpg');
+}
+.card11 {
+    background: rgba(0, 0, 0, 0.142);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    width: 15cm;
+    height: 10cm;
+    padding: 1cm;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.card2 {
+    background-image: url('dps.jpg');
+}
+.card22 {
+    background: rgba(0, 0, 0, 0.142);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    width: 15cm;
+    height: 10cm;
+    padding: 1cm;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.card1 h3, .card h6, .card p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding-top: 1cm;
+}
+
+.card1 h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card1 h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.card2 h3, .card h6, .card p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding-top: 1cm;
+}
+
+.card2 h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card2 h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card2 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+.project{
+    height:22cm;
+    margin: 3cm;
+}
+
+.cs{
+    position: relative;
+    background-image: url("");
+    background-color: black;
+    height: 8cm;
+    margin-bottom: 2cm;
+    border-radius: 3cm;
+    color: white;
+    padding: 2cm;
+}
+.cs h3 {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 3cm;
+}
+
+
+.cs p {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 15cm;
+    margin-top: 5cm;
+}
+.cs img{
+    position: absolute;
+    height: 8cm;
+    margin-left: 25cm;
+}
+
+.pb{
+    background-color: black;
+    height: 8cm;
+    margin-bottom: 2cm;
+    border-radius: 3cm;
+    color: white;
+    padding: 2cm;
+}
+.pb h3 {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 700;
+    
+    margin-top: 3cm;
+}
+
+.pb p {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 15cm;
+    margin-right: 15cm;
+    margin-top: 5cm;
+}
+.pb img{
+    position: absolute;
+    height: 8cm;
+    margin-left: 22cm;
+}
+
+
+.endof{
+    margin-top: 5cm;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 8cm;
+    color: aliceblue;
+}
+.endof p{
+    padding-top: 7cm;
+}
